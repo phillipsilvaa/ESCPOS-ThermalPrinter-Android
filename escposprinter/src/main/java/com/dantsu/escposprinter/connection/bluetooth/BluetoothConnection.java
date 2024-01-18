@@ -55,10 +55,8 @@ public class BluetoothConnection extends DeviceConnection {
     @SuppressLint("MissingPermission")
     public BluetoothConnection connect() throws EscPosConnectionException {
         if (this.isConnected()) {
-            // this.disconnect();
-            throw new EscPosConnectionException("isConnected :: Existe conexao aberta.");
-
-            // return this;
+            System.out.println("Testeeeeeeeeeeeeeeeeeeeeee");
+            this.disconnect();
         }
 
         if (this.device == null) {
