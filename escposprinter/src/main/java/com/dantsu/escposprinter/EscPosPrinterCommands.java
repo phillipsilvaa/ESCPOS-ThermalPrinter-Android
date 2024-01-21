@@ -491,7 +491,7 @@ public class EscPosPrinterCommands {
             }
 
             if (!Arrays.equals(this.currentTextColor, textColor)) {
-                this.printerConnection.write(textColor);
+                // this.printerConnection.write(textColor);
                 this.currentTextColor = textColor;
             }
 
