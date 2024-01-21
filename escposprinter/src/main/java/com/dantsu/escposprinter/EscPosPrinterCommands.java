@@ -57,11 +57,11 @@ public class EscPosPrinterCommands {
     public static final byte[] TEXT_DOUBLE_STRIKE_OFF = new byte[]{0x1B, 0x47, 0x00};
     public static final byte[] TEXT_DOUBLE_STRIKE_ON = new byte[]{0x1B, 0x47, 0x01};
 
-    public static final byte[] TEXT_COLOR_BLACK = new byte[]{0x1B, 0x72, 0x00};
-    public static final byte[] TEXT_COLOR_RED = new byte[]{0x1B, 0x72, 0x01};
+    public static final byte[] TEXT_COLOR_BLACK = new byte[0];
+    public static final byte[] TEXT_COLOR_RED = new byte[0];
 
-    public static final byte[] TEXT_COLOR_REVERSE_OFF = new byte[]{0x1D, 0x42, 0x00};
-    public static final byte[] TEXT_COLOR_REVERSE_ON = new byte[]{0x1D, 0x42, 0x01};
+    public static final byte[] TEXT_COLOR_REVERSE_OFF = new byte[0];
+    public static final byte[] TEXT_COLOR_REVERSE_ON = new byte[0];
 
 
     public static final int BARCODE_TYPE_UPCA = 65;
